@@ -1,0 +1,13 @@
+# =========================================================
+#  Configuration de PluginLoader
+# =========================================================
+
+# Depot GitHub a charger, au format: proprietaire/nom-du-depot
+repository: "TonPseudo/MesPlugins"
+
+# Branche a utiliser
+branch: "main"
+
+# Token GitHub -- UNIQUEMENT pour un depot prive.
+# Laisse vide ("") pour un depot public.
+token: ""

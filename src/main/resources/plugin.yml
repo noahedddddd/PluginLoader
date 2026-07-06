@@ -1,0 +1,17 @@
+name: PluginLoader
+version: 1.0.0
+main: fr.loader.PluginLoader
+api-version: '1.21'
+author: Toi
+description: Charge dynamiquement des plugins (1 dossier = 1 plugin) depuis un depot GitHub.
+
+commands:
+  plreload:
+    description: Recharge tous les plugins depuis le depot GitHub
+    usage: /plreload
+    permission: pluginloader.reload
+
+permissions:
+  pluginloader.reload:
+    description: Autorise le rechargement des plugins
+    default: op
